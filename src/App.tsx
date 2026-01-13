@@ -23,7 +23,7 @@ function App() {
                 Intelligent Retail Business Management
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Partner delivers enterprise-grade SaaS solutions for modern retail operations. 
+                Neo Contoso delivers enterprise-grade SaaS solutions for modern retail operations. 
                 From customer loyalty to workforce management and content delivery, we power the 
                 complete retail technology stack.
               </p>
@@ -127,7 +127,7 @@ function App() {
                   Modernization Journey
                 </h2>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Partner's platform reflects years of organic growth, resulting in a mixed 
+                  Neo Contoso's platform reflects years of organic growth, resulting in a mixed 
                   application portfolio with varying architectures and user experiences. Our 
                   systems serve thousands of retail locations daily, but we recognize the need 
                   for modernization.
@@ -136,7 +136,7 @@ function App() {
                   Under new ownership, we've committed to a comprehensive platform redesign 
                   leveraging AI-assisted development tools and modern architectural patterns. 
                   This transformation will deliver consistent, intuitive experiences across 
-                  all Partner solutions.
+                  all Neo Contoso solutions.
                 </p>
               </div>
               <div>
@@ -154,7 +154,7 @@ function App() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                      Partner has renewed our strategic partnership with Microsoft, enabling 
+                      Neo Contoso has renewed our strategic partnership with Microsoft, enabling 
                       access to cutting-edge cloud infrastructure, AI services, and enterprise 
                       development tools.
                     </p>
@@ -179,7 +179,7 @@ function App() {
                 Built for Retail, Powered by Innovation
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Partner combines deep retail industry expertise with modern technology capabilities. 
+                Neo Contoso combines deep retail industry expertise with modern technology capabilities. 
                 Our platform modernization initiative will deliver the next generation of retail 
                 management solutions—intelligent, integrated, and built for the future.
               </p>
