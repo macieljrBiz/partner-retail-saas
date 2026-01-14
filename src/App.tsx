@@ -1,10 +1,15 @@
+import { useState } from "react"
 import { UsersFour, ClockCountdown, PlayCircle, Gear, Sparkle, MicrosoftOutlookLogo } from "@phosphor-icons/react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import Logo from "@/components/Logo"
+import ChatButton from "@/components/ChatButton"
+import ChatWindow from "@/components/ChatWindow"
 
 function App() {
+  const [isChatOpen, setIsChatOpen] = useState(false)
+
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
@@ -12,6 +17,9 @@ function App() {
           <Logo />
         </div>
       </header>
+
+      <ChatButton onClick={() => setIsChatOpen(true)} />
+      <ChatWindow isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
 
       <main>
         <section className="py-24 md:py-32 relative overflow-hidden">
